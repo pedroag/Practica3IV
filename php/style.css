@@ -1,0 +1,180 @@
+BODY {
+   font: 8pt Verdana, Geneva, Arial, Helvetica, sans-serif;
+   margin: 10 0 10 0px;
+   text-align: center;
+   background-color: #ebebeb;
+   overflow:scroll;
+   width:1280px;
+   height:1024px;
+}
+
+header#centro{
+	width:68%;
+	border:dashed;
+	margin:0 auto;
+	height:100px;
+}
+
+header h1{
+	font-size:50px;
+	font-style:italic;
+}
+
+header nav{
+	font-size:18px;
+	border: green outset;
+}
+
+#izquierda{
+	float:left;
+	width:15%;
+	background:#993;
+	height:800px;
+	border:dashed;
+}
+
+#derecha{
+	float:right;
+	width:15%;
+	background-color:#993;
+	height:800px;
+	border:dashed;
+}
+
+#contenido{
+	margin:0 auto;
+	width:68%;
+}
+
+article p{
+	text-align:justify;
+}
+
+#noticiasIZQ{
+	float:left;
+	width:36%;
+}
+
+article{
+	border-bottom:solid;
+}
+
+article h3{
+	text-align:left;
+	font:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+section h4{
+	font:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+}
+#noticiasCEN{
+	margin:0 auto;
+	width:22%;
+}
+
+#noticiasDER{
+	float:right;
+	width:35%;
+}
+
+section li{
+	text-align:justify;
+}
+
+#ultimas{
+	overflow:scroll;
+	height: 200px;
+}
+
+#ultimasnot{
+	float:right;
+	width:32%;
+}
+
+#login{
+	background-color:#CF9;
+}
+
+#publi1{
+	height:250px;
+	border:dashed;
+	margin-bottom:10px;
+	margin-top:10px;
+}
+
+#publi2{
+	height:250px;
+	border:dashed;
+}
+
+footer{
+	clear:both;
+	text-align:center;
+	margin-top:10px;
+	font:"Comic Sans MS", cursive;
+	font-size:18px;
+	background-color:#CF9
+}
+
+header h2{
+	font:"Times New Roman", Times, serif;
+	font-size:40px;
+	border-bottom:solid;
+}
+object{
+	float:left;
+}
+
+#noticiaDES{
+	height:240px;
+	border-bottom:solid;
+}
+
+#noticiaDES img{
+	float:left;
+}
+
+#noticiaDES h3{
+	font-size:24px;
+}
+
+#noticiaDES p{
+	text-align:justify;
+	font-size:18px;
+	margin:inherit;
+}
+
+#lanoticia{
+	float:left;
+	width:65%;
+}
+
+#lanoticia h3{
+	font-size:20px;
+	text-align:justify;
+}
+
+#lanoticia p{
+	text-align:justify;
+}
+
+#lanoticia img{
+	float:left;
+	margin-right: 10px;
+}
+
+#otrasnoticias{
+	width: 30%;
+	float:right;
+	text-align:center;
+}
+
+#rellenar{
+	text-align:justify;
+	float:left;
+}
+
+aside h2{
+	font-size:30px;
+	background:bottom;

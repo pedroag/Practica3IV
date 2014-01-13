@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang = "es">
+<head>
+<title>El periodico</title>
+<meta charset = "UTF8"/>
+<link rel = "stylesheet" type = "text/css" href="style.css" />
+</head>
+
+<body>
+<aside id="izquierda"> <img src="img/publi_izq.jpg" width='192' height='800'> </aside>
+<aside id="derecha"> <img src="img/publi_der.jpg" width='192' height='800'> </aside>
+<header id="centro"> <img src="img/publi_arriba.jpg"> </header>
+<section id="contenido">
+  <header>
+    <h1>El Periódico</h1>
+    <nav> <a href="index.html">Portada</a> <a href="Local/Local.html">Local</a> <a href="Nacional/Nacional.html">Nacional</a> <a href="Internacional/Internacional.html">Internacional</a> <a href="Deportes/Deportes.html">Deportes</a></nav>
+  </header>
+  <section id="formulario">
+  <h2> Formulario de suscripción </h2>
+  <section id="rellenar">
+  <form>
+	<P>
+	Nombre: <INPUT type="text" name="nombre"><BR>
+	Apellidos: <INPUT type="text" name="apellidos"><BR>
+	Email: <INPUT type="email" name="email"><BR>
+	Teléfono: <INPUT type="tel" name="telefono"><BR>
+	Fecha de Nacimiento: <INPUT type="date" name="fecha"><BR>
+  	Dirección: <INPUT type="text" name="direccion"><BR>
+    Ciudad:<INPUT type="text" name="ciudad"><BR>
+    Provincia:<INPUT type="text" name="provincia"><BR>
+	¿Es la primera vez que te suscribes? 
+	Si <input type = "radio" id = "radiobutton1" name="menu" value = "SI" checked/>
+	No <input type = "radio" id = "radiobutton2" name="menu" value = "NO" /><br>
+	¿Cómo nos conociste?
+	<select id="conoci" size="1">
+		<option value=1>Anuncio en Internet
+		<option value=2>Anuncio en televisión
+		<option value=3>Recomendación de un amigo
+        <option value=4>Anuncion en Radio
+	</select><br>
+    Tipo de suscripción:  
+    1 año/300€ <input type = "radio" id = "radiobutton1" name="menu" value = "SI" checked/>
+	6 meses/200€ <input type = "radio" id = "radiobutton2" name="menu" value = "NO" /><br>
+    Forma de pago: 
+    Paypal <input type = "radio" id = "radiobutton1" name="menu" value = "SI" checked/>
+	Transferencia bancaria <input type = "radio" id = "radiobutton2" name="menu" value = "NO" /><br>
+	<INPUT type="submit" value="Enviar"> <INPUT type="reset">
+
+	</P>
+
+</section>
+<footer>
+  <p> Edicción: Pedro Alcalá Galiano | <a href="mailto:pedroag@correo.ugr.es">Contacto </a> | <a href="ComoSeHizo.pdf"> Cómo se hizo </a> </p>
+</footer>
+</body>
+</html>
